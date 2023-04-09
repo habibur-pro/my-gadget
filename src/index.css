@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.default {
+    @apply font-semibold capitalize text-slate-700 mx-3
+}
+
+.active {
+    @apply text-green-500 font-semibold capitalize mx-3
+}
